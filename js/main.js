@@ -1,5 +1,7 @@
 var heading = document.getElementById('heading');
 
-heading.addEventListener('click', function () {
-    heading.innerHTML = 'This is click number __';
-});
+heading.addEventListener('click', myFunction);
+
+function myFunction () {
+    var paragraph = document.createElement('p');
+}
