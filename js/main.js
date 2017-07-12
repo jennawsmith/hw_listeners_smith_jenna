@@ -1,4 +1,4 @@
-var numba = 0
+var numba = 0;
 
 var heading = document.getElementById('heading');
 
