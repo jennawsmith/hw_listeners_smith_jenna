@@ -20,7 +20,7 @@ p {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 4.9rem;
     margin-left: 0;
     color: #6d7993;
     font-family: 'Sacramento', cursive;
@@ -31,9 +31,14 @@ h1 {
     color: white;
     padding: 10px;
     border-radius: 10px 10px 0 0;
-    font-size: 3rem;
+    font-size: 5rem;
     text-align: center;
     font-family: 'Sacramento', cursive;
+}
+
+ul li {
+    font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 img {
