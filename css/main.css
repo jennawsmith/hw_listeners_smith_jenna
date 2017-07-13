@@ -56,6 +56,11 @@ figcaption {
 }
 
 @media all and (min-width: 768px) {
+    .container {
+        width: 70%;
+        margin-left: 15%;
+    }
+
     h1 {
         font-size: 3.5rem;
         text-align: center;
