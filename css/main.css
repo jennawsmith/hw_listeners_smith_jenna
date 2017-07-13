@@ -1,9 +1,19 @@
 body {
     background-color: #d5d5d5;
+    margin: auto;
+    padding: 0;
+}
+
+.main {
+    margin: auto;
+    width: 90%;
 }
 
 section {
     background-color: white;
+    width: 60%;
+    margin-right: 0;
+    padding: 10px;
 }
 
 .h2 {
