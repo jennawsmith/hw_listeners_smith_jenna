@@ -16,12 +16,14 @@ section {
 p {
     padding: 10px;
     font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     font-size: 3.5rem;
     margin-left: 0;
     color: #6d7993;
+    font-family: 'Sacramento', cursive;
 }
 
 .h2 {
@@ -31,7 +33,7 @@ h1 {
     border-radius: 10px 10px 0 0;
     font-size: 3rem;
     text-align: center;
-
+    font-family: 'Sacramento', cursive;
 }
 
 img {
