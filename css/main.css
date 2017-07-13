@@ -23,7 +23,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color: white;
+    color: white;
 }
 
 .submit {
@@ -32,4 +32,12 @@ textarea::placeholder {
     margin-left: 70%;
     background-color: white;
     color: #000054;
+    border: #000054 2px solid;
+    border-radius: 10px;
+}
+
+legend {
+    color: white;
+    font-size: 2em;
+    margin: auto;
 }
