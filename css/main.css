@@ -4,18 +4,18 @@ body {
 }
 
 .container {
-    margin: 0 0 0 15%;
+    margin: 0 0 0 7.5%;
 }
 
 section {
     background-color: white;
-    width: 70%;
+    width: 90%;
     border-radius: 10px;
 }
 
 p {
     padding: 10px;
-    font-size: 1.25rem;
+    font-size: 2rem;
 }
 
 .h2 {
@@ -23,7 +23,8 @@ p {
     color: white;
     padding: 10px;
     border-radius: 10px 10px 0 0;
-    font-size: 1.25rem;
+    font-size: 3rem;
+    text-align: center;
 
 }
 
