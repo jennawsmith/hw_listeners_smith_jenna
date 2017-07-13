@@ -3,5 +3,14 @@ body {
 }
 
 .container {
-    text-align: center;
+    margin: auto;
+    width: 80%;
+}
+
+form {
+    text-align: left;
+}
+
+input {
+    width: 70%;
 }
