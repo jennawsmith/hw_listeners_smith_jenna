@@ -1,24 +1,31 @@
 body {
     background-color: #d5d5d5;
-    margin: auto;
     padding: 0;
 }
 
 .container {
-    margin: auto;
+    margin: 0 0 0 15%;
 }
 
 section {
     background-color: white;
-    width: 60%;
-    margin-right: 0;
+    width: 70%;
+    border-radius: 10px;
+}
+
+p {
+    padding: 10px;
 }
 
 .h2 {
     background-color: #6d7993;
     color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+
 }
 
 img {
     width: 70%;
+    margin-left: 15%;
 }
