@@ -14,11 +14,16 @@ window.addEventListener('load', function changeBackground() {
     document.body.style.backgroundColor = '#c28285';
 });
 
-//This listener will change the background-color of the sections when a key is pressed
+//This listener will change the background-color of the sections when clicked
 
-var changeColor = document.getElementsByClassName('changeColor');
+document.getElementsByTagName('section')[0].addEventListener('click', function (event) {
+    event.target.style.backgroundColor = '#d5d5d5';
+});
 
-changeColor.addEventListener('keydown', function (event1) {
-    event1.body.style.color = 'black';
-    return false;
+document.getElementsByTagName('section')[1].addEventListener('click', function (event) {
+    event.target.style.backgroundColor = '#d5d5d5';
+});
+
+document.getElementsByTagName('section')[2].addEventListener('click', function (event) {
+    event.target.style.backgroundColor = '#d5d5d5';
 });
