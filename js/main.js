@@ -10,7 +10,7 @@ hover.addEventListener('mouseout', function (event) {
 });
 
 
-// This listener will change the color of the background when the page loads
+//This listener will change the color of the background when the page loads
 window.addEventListener('load', function changeBackground() {
     document.body.style.backgroundColor = '#c28285';
 });
