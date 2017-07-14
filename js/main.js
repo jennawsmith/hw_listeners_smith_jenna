@@ -1,14 +1,9 @@
 //This listener will change the paragraph text to "Oops, I can't find the text!" when clicked
 
-function modifyText(newText) {
-    var p1 = document.getElementsByClassName('p1');
-    newText.innerHTML = "Oops, I can't find the text!";
-}
-
-var textChange = document.getElementsByClassName('p1');
-textChange.addEventListener('click', function () {
-    modifyText("Oops, I can't find the text!");
+document.getElementByClassName('clicked')[0].addEventListener('click', function (event) {
+    event.target.innerHTML = "Oops, I can't find the text!";
 }, false);
+
 
 //This listener will change h1 text color when hovered and then back when not hovered
 var hover = document.getElementById('hoverme');
