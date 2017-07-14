@@ -1,10 +1,3 @@
-//This listener will change the paragraph text to "Oops, I can't find the text!" when clicked
-
-document.getElementByClassName('clicked')[0].addEventListener('click', function (event) {
-    event.target.innerHTML = "Oops, I can't find the text!";
-}, false);
-
-
 //This listener will change h1 text color when hovered and then back when not hovered
 var hover = document.getElementById('hoverme');
 
@@ -16,6 +9,10 @@ hover.addEventListener('mouseout', function (event) {
     event.target.style.color = '#6d7993';
 });
 
+// This listener will change the color of the background when the page loads
+window.addEventListener('load', function changeBackground() {
+    document.body.style.backgroundColor = '#c28285';
+});
 
 //This listener will change the background-color of the sections when a key is pressed
 
